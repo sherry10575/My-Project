@@ -17,7 +17,7 @@ This project includes a `Makefile` to automate setup and execution. The followin
 
 ## License
 
-This project is licensed under the **[MIT](https://choosealicense.com/licenses/mit/)**.
+This project is licensed under the **MIT License**.
 
 ### Justification:
 
