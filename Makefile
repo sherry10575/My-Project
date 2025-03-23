@@ -3,8 +3,9 @@ SHELL=/bin/bash
 VENV=.venv
 
 setup:
-	python3 -m venv $(VENV)
-	source $(VENV)/bin/activate && pip install -r requirements.txt
+    python -m venv build_env
+    call .git/hooks/post-commit.bat
+
 
 run:
 	source $(VENV)/bin/activate && python app.py
